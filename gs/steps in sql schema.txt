@@ -1,0 +1,20 @@
+created a database called grocery_store;
+DB designer.net;
+1.table----Product table
+contents:
+-manage products                  button:add new product
+
+-Name      unit         PricePerUnit
+Toothpaste  each        20Rs
+HairOil     each        50Rs
+Rice        kg          100Rs
+
+tableName: products
+column_name:
+product_id int pk,nn,ai
+name  varchar(100) nn
+
+columns:
+product_id,name,uom_id,price_per_unit.
+foreign key: fk_uom_id referenced from uom uom_id in products linked with uom_id of uom table
+ 
